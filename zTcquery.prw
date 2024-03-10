@@ -22,7 +22,7 @@ Local cAlias := GetNextAlias()
 
     WHILE !cAlias->(EOF())
 
-        Alert("Descrição: "+cAlias->B1_DESC)
+        Alert("Descrição do produto: "+cAlias->B1_DESC)
 
     END
         cAlias->(DbCloseArea())
